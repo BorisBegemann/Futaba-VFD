@@ -8,10 +8,10 @@ I could not find a datasheet for the specific model of VFD. However, the datashe
 
 ## Hardware
 The display is controlled by a board manufactured by BROSE
-![Controlboard](img/control_board.jpg)
+![Controlboard](img/control_board.JPG)
 
 This board handles the RS-485 communication with the train system as well as the communication with the display. I decided to remove the small daughterboard on the left but keep the main control board. Removing the daughterboard reveals two rows of 32 pin sockets, the backside of the display connector (Labeled 'A B') as wells as two M74HCT45 octal bus transceivers. The M74HCT45 on the left handles the control lines for the display, the one on the right the datalines.
-![Pin rows and display connector](img/pin_rows.jpg)
+![Pin rows and display connector](img/pin_rows.JPG)
 
 ### Pinout
 The pins are labeled from 1 to 64, starting in the top right. Most of the pins seem not needed and are not connected through to the display. 
