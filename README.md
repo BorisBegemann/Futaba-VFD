@@ -66,6 +66,6 @@ For me, the following initialization sequence has worked:
 
 The screens memory is 21’504 bytes big and organized the following way:
 
- ![Memory](img/mem.jpg)
+ ![Memory](img/mem.JPG)
 
  The numbers indicate the offset from the start position of the write and the thick outline shows the visible part of the screen. (controlled via command)
