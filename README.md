@@ -37,7 +37,7 @@ The pins are labeled from 1 to 64, starting in the top right. Most of the pins s
  
  Most of the pins are described in the linked datasheet above:
 
- ![Signal lines](img/signal_lines.jpg)
+ ![Signal lines](img/signal_lines.JPG)
 
 Missing is DIR, which controls the direction of the data lines M74HCT45 (High to send data to the display).
 I don't know the functions of **UNK0 - UNK2** yet, i suspect 2 of them are SEL and RD. Pulling them all to +5V has worked for me.
